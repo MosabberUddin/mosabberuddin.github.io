@@ -305,7 +305,7 @@ export default function Index() {
 
       {/* Projects */}
       <section className="pf-section anchor" id="projects">
-        <h2 className="pf-h2">Projects</h2>
+        <h2 className="pf-h2">Projects I delivered</h2>
         <div className="pf-h2-bar" />
         <p className="pf-sub" style={{ marginBottom: 44 }}>
           Products I've built myself, enterprise programs I've led, and the hands-on QA and engineering work that built my foundation.
