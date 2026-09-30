@@ -324,7 +324,7 @@ export const projects: { label: string; note: string; items: Project[] }[] = [
 export type Certification = { name: string; note?: string; mark?: string };
 
 export const certifications: Certification[] = [
-  { name: "Certified Scrum Professional – ScrumMaster (CSP-SM)", mark: "SA", note: "Scrum Alliance" },
+  { name: "Certified Scrum Professional – ScrumMaster (CSP-SM)", mark: "SA", note: "Scrum Alliance, 2012" },
   {
     name: "ISTQB Certified Tester Foundation Level (CTFL)",
     mark: "ISTQB",
