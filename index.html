@@ -108,6 +108,20 @@ Error generating stack: `+e.message+`
 @media (prefers-reduced-motion:reduce){.pf-puff{animation:none;display:none}}
 
 .pf-scene .pf-hero-art3{z-index:5}
+
+@media (min-width:861px){
+.pf-timeline{border-left:0;padding-left:0;position:relative;gap:64px}
+.pf-timeline:before{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:var(--pf-line)}
+.pf-tl-item:before{left:50%;top:10px;margin-left:-6px;z-index:2}
+.pf-tl-rich,.pf-tl-rich:not(:has(.pf-carousel)){grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:72px;align-items:start}
+.pf-tl-rich .pf-tl-text{grid-column:1;grid-row:1}
+.pf-tl-rich .pf-carousel{grid-column:2;grid-row:1}
+.pf-tl-rich:nth-child(even) .pf-tl-text{grid-column:2}
+.pf-tl-rich:nth-child(even) .pf-carousel{grid-column:1}
+.pf-tl-rich:nth-child(odd) .pf-tl-text{text-align:right}
+.pf-tl-rich:nth-child(odd) .pf-promo,.pf-tl-rich:nth-child(odd) .pf-tl-projects{justify-items:end}
+.pf-tl-rich:nth-child(odd) .pf-promo-path,.pf-tl-rich:nth-child(odd) .pf-tl-chips{justify-content:flex-end}
+}
 </style>
   </head>
   <body>
