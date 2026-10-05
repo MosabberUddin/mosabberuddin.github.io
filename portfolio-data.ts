@@ -79,7 +79,7 @@ export const experience: Experience[] = [
       "Owned test strategy and delivery quality for digital marketing and brand-management SaaS platforms; primary client contact for demos and status calls.",
   },
   {
-    company: "2020 Technologies",
+    company: "20-20 Technologies",
     roles: ["QA Specialist"],
     dates: "Jan 2013 to Feb 2014",
     summary:
@@ -282,24 +282,46 @@ export const projects: { label: string; note: string; items: Project[] }[] = [
         r: "Helped deliver **UAT-validated releases** of an enterprise project management tool.",
       },
       {
-        name: "Furniture Manufacturing Software",
+        name: "inSight Manufacturing Solutions software",
         photoSlot: "Tribute to Shahida Parveen, an empowering woman leader in tech",
-        meta: "2020 Technologies / Canadian manufacturer",
+        meta: "20-20 Technologies / Canadian manufacturer",
         tag: "Hands-on QA",
         oneliner:
-          "Software that used robotic measurement devices to size wood cuts for furniture assembly.",
+          "inSight Manufacturing Solutions software, a powerful suite of modular, integrated software components. It is a total system solution designed to improve the productivity, efficiency, and profitability of your woodworking manufacturing environment. From order entry through manufacturing to shipping, inSight provides transparency to your organization by capturing, processing, and presenting real-time data to the users who need it the most.",
         s: "A Canadian manufacturer relied on software that worked with robotic measurement devices to size wood and wood cuts that would later be assembled into furniture, where accuracy matters on every cut.",
         t: "As QA Specialist, verify the software behaved correctly across its measurement and cut-sizing scenarios.",
         a: "Executed smoke, functional, and regression testing on the measurement and cut-sizing features, working with international cross-functional QA teams.",
         r: "Helped ship **tested releases** of manufacturing software used for precise wood cutting and furniture production.",
       },
       {
-        name: "Excel-to-Web Financial Platform",
-        photoSlot: "My USA trip, May 2010",
-        meta: "Exling LLC / Alenian, Florida, USA",
+        name: "ajkeroffer.com",
+        meta: "Exling LLC",
         tag: "Hands-on QA",
         oneliner:
-          "A platform that turned Excel-designed pages into full websites, used by hundreds of client businesses to organize finances and ROI data.",
+          "An online, product-based ecommerce social engine.",
+        s: "Exling LLC was building ajkeroffer.com, an online ecommerce platform that combined product offers with social features, and needed it tested before launch.",
+        t: "As QA Lead, make sure the platform's features worked reliably before release.",
+        a: "Led QA for the platform: planned the testing, wrote and ran test cases, and coordinated defect reporting with the development team.",
+        r: "Helped launch a **tested ecommerce social platform** in 2012.",
+      },
+      {
+        name: "exlingjobs.com",
+        meta: "Exling LLC",
+        tag: "Hands-on QA",
+        oneliner:
+          "A social networking job portal.",
+        s: "Exling LLC was building exlingjobs.com, a job portal with social networking features, and needed it tested before launch.",
+        t: "As QA Lead, make sure the portal's features worked reliably before release.",
+        a: "Led QA for the portal: planned the testing, wrote and ran test cases, and coordinated defect reporting with the development team.",
+        r: "Helped launch a **tested social job portal** in 2012.",
+      },
+      {
+        name: "Excel-to-Web Financial Platform",
+        photoSlot: "My USA trip, May 2010",
+        meta: "Exling LLC / Alinean, Inc., Florida, USA",
+        tag: "Hands-on QA",
+        oneliner:
+          "Alinean, Inc. is the leading provider of on-demand sales tools and related services, empowering solution and service providers to sell with business value and return on investment (ROI). Their enterprise-class solutions drive improvements in selling effectiveness to reduce sales cycles, increase deal size, reduce discounting and increase clients' competitive advantage.",
         s: "A Florida-based client ran a platform that hundreds of businesses used to organize their finances and ROI data. Pages were designed in Excel and automatically converted into full websites under the client's domain.",
         t: "Design the Excel-based UI and UX pages that the platform converted into live, client-facing web pages.",
         a: "Designed Excel page layouts as the platform's UI/UX layer and uploaded them to generate full websites, while leading an 11-member QA team and working on-site with the client in the USA in 2010.",
@@ -355,7 +377,7 @@ export const experiencePhotos: Record<string, Slide[]> = {
   "Exabyting Technologies": [{ caption: "Team at Exabyting" }, { caption: "Delivery planning session" }],
   "Augmedix-Commure": [{ caption: "Augmedix team, Dhaka" }, { caption: "Leadership summit, San Francisco 2024" }],
   SoftwarePeople: [{ caption: "SoftwarePeople colleagues" }, { caption: "Team trips abroad" }],
-  "2020 Technologies": [{ caption: "2020 Technologies team" }, { caption: "QA lab days" }],
+  "20-20 Technologies": [{ caption: "20-20 Technologies team" }, { caption: "QA lab days" }],
   "Exling LLC": [{ caption: "On-site in the USA, May 2010" }, { caption: "Exling QA team" }],
   "Panoramic Ltd.": [{ caption: "Where it all started" }, { caption: "First developer desk" }],
 };
